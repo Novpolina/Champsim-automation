@@ -1,0 +1,182 @@
+[
+    {
+        "policy": "lru_no_prefetch",
+        "sets": 256,
+        "ways": 8,
+        "size_kb": 128,
+        "traces": {
+            "gobmk": 0.6119496709968718,
+            "leslie3d": 0.2813962082262211,
+            "bwaves_s": 0.48360794971972143
+        },
+        "geomean": 0.43669255984077315
+    },
+    {
+        "policy": "lru_no_prefetch",
+        "sets": 512,
+        "ways": 8,
+        "size_kb": 256,
+        "traces": {
+            "gobmk": 0.7460932985785642,
+            "bwaves_s": 0.4853066077798539,
+            "leslie3d": 0.29922436404680325
+        },
+        "geomean": 0.47672591991293517
+    },
+    {
+        "policy": "lru_no_prefetch",
+        "sets": 1024,
+        "ways": 8,
+        "size_kb": 512,
+        "traces": {
+            "bwaves_s": 0.48547647358586715,
+            "leslie3d": 0.3010953698831525,
+            "gobmk": 0.8167731530939272
+        },
+        "geomean": 0.49240740270812255
+    },
+    {
+        "policy": "lru_no_prefetch",
+        "sets": 512,
+        "ways": 16,
+        "size_kb": 512,
+        "traces": {
+            "leslie3d": 0.30113007830293037,
+            "gobmk": 0.8248143692277272,
+            "bwaves_s": 0.48547647358586715
+        },
+        "geomean": 0.49403704416455796
+    },
+    {
+        "policy": "lru_no_prefetch",
+        "sets": 1024,
+        "ways": 16,
+        "size_kb": 1024,
+        "traces": {
+            "gobmk": 0.8827689455316767,
+            "bwaves_s": 0.48547647358586715,
+            "leslie3d": 0.3011394674772974
+        },
+        "geomean": 0.5053523673920697
+    },
+    {
+        "policy": "ship_no_prefetch",
+        "sets": 256,
+        "ways": 8,
+        "size_kb": 128,
+        "traces": {
+            "gobmk": 0.612429409000208,
+            "bwaves_s": 0.020044165109563444,
+            "leslie3d": 0.10155874316280761
+        },
+        "geomean": 0.10762680355123377
+    },
+    {
+        "policy": "ship_no_prefetch",
+        "sets": 512,
+        "ways": 8,
+        "size_kb": 256,
+        "traces": {
+            "gobmk": 0.7421123789396377,
+            "leslie3d": 0.13917296612002178,
+            "bwaves_s": 0.06013249532869033
+        },
+        "geomean": 0.18381372174891053
+    },
+    {
+        "policy": "ship_no_prefetch",
+        "sets": 1024,
+        "ways": 8,
+        "size_kb": 512,
+        "traces": {
+            "leslie3d": 0.19309360450771418,
+            "bwaves_s": 0.13555291319857313,
+            "gobmk": 0.8110683273993937
+        },
+        "geomean": 0.27689262966813977
+    },
+    {
+        "policy": "ship_no_prefetch",
+        "sets": 512,
+        "ways": 16,
+        "size_kb": 512,
+        "traces": {
+            "leslie3d": 0.14265720436607784,
+            "bwaves_s": 0.06013249532869033,
+            "gobmk": 0.781807186685104
+        },
+        "geomean": 0.18858227233696173
+    },
+    {
+        "policy": "ship_no_prefetch",
+        "sets": 1024,
+        "ways": 16,
+        "size_kb": 1024,
+        "traces": {
+            "gobmk": 0.8649831935146739,
+            "bwaves_s": 0.13572277900458637,
+            "leslie3d": 0.20194161493179033
+        },
+        "geomean": 0.28727339875283925
+    },
+    {
+        "policy": "ship_spp_dev",
+        "sets": 256,
+        "ways": 8,
+        "size_kb": 128,
+        "traces": {
+            "bwaves_s": 0.04099004714510215,
+            "leslie3d": 0.10193771091739783,
+            "gobmk": 0.5693755543426349
+        },
+        "geomean": 0.13349675341882403
+    },
+    {
+        "policy": "ship_spp_dev",
+        "sets": 512,
+        "ways": 8,
+        "size_kb": 256,
+        "traces": {
+            "leslie3d": 0.11165964863847713,
+            "bwaves_s": 0.07480065814453866,
+            "gobmk": 0.7089929260450161
+        },
+        "geomean": 0.18091775613056071
+    },
+    {
+        "policy": "ship_spp_dev",
+        "sets": 512,
+        "ways": 16,
+        "size_kb": 512,
+        "traces": {
+            "bwaves_s": 0.07692307692307693,
+            "leslie3d": 0.11196870429280897,
+            "gobmk": 0.8166602705514021
+        },
+        "geomean": 0.19160120798201366
+    },
+    {
+        "policy": "ship_spp_dev",
+        "sets": 1024,
+        "ways": 8,
+        "size_kb": 512,
+        "traces": {
+            "leslie3d": 0.11848346131305153,
+            "bwaves_s": 0.13725490196078433,
+            "gobmk": 0.803463694413512
+        },
+        "geomean": 0.23553237866006713
+    },
+    {
+        "policy": "ship_spp_dev",
+        "sets": 1024,
+        "ways": 16,
+        "size_kb": 1024,
+        "traces": {
+            "leslie3d": 0.11878853483643774,
+            "gobmk": 0.8616978344436996,
+            "bwaves_s": 0.1366414079687118
+        },
+        "geomean": 0.24093725153068693
+    }
+]
